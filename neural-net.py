@@ -3,7 +3,7 @@ import numpy as np
 # sigmoid function
 def nonlin(x,deriv=False):
     if(deriv==True):
-        return x*(1-x)
+        return x*(1-x) # This is element wis
     return 1/(1+np.exp(-x))
 
 # input dataset
@@ -25,7 +25,7 @@ syn0 = 2*np.random.random((3,1)) - 1
 
 for iter in xrange(10000):
     # forward propagation
-    l0 = X
+    l0 = X #sample
     l1 = nonlin(np.dot(l0,syn0)) ## make predictions of the result with forward propogation
 
     # how much did we miss?
