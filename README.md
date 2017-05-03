@@ -11,20 +11,20 @@ This particular script trains a function to guess the output of the following da
 ## Getting this to (net)work
 ### 1) Clone this repo
 ```
-  cd /wherever/you/want/to/clone/this/repo
-  git clone https://github.com/whatsrupp/neural-netwerk-it
+$ cd /wherever/you/want/to/clone/this/repo
+$ git clone https://github.com/whatsrupp/neural-netwerk-it
 ```
 ### 2) Get pip 'n' python 
 I'm not going to go into this in too much detail as I'd rather be coding but a quick google for 'installing pip' and 'installing python' should do the job.
 ### 3) Install dependancies
 In this case, only numpy which allows for multidimensional matrix manipulations
 ```
-pip install --user numpy
+$ pip install --user numpy
 ```
 
 ### 4) Execute the python script
 ```
-execfile('neural-net.py')
+$ python neural-net.py
 ```
 The only output will be 
 ```
